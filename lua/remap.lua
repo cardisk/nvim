@@ -44,10 +44,3 @@ vim.keymap.set("n", "<leader><Left>", "<C-W><Left>")
 -- Going to the right window
 vim.keymap.set("n", "<leader><Right>", "<C-W><Right>")
 -- vim.keymap.set("n", "<leader>h", "<C-W><Right>")
-
--- ToggleTerm cmd
-vim.keymap.set("t", "<leader>t", "<cmd>ToggleTerm<CR>")
-vim.keymap.set("n", "<leader>t", "<cmd>ToggleTerm<CR>")
-
--- Neogit cmd
-vim.keymap.set("n", "<leader>g", "<cmd>Neogit<CR>")
