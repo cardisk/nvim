@@ -1,6 +1,3 @@
--- Fat cursor in Insert mode
--- vim.opt.guicursor = ""
-
 -- Line numbers
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -40,8 +37,6 @@ vim.opt.updatetime = 50
 -- Apply a brightercolor to a specific column
 vim.opt.colorcolumn = "80"
 
-vim.g.mapleader = " "
-
 -- Selection shift up/down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
@@ -56,4 +51,4 @@ vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<leader>r", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left>")
 
 -- Chmod +x from vim
-vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true }) 
+vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
