@@ -8,9 +8,9 @@ lsp_zero.on_attach(function(client, bufnr)
         preserve_mappings = false
     })
 
-    vim.keymap.set('n', '<leader>vr', '<cmd> vim.lsp.buf.rename() <cr>', opts)
-    vim.keymap.set('n', '<C-CR>', '<cmd> vim.lsp.buf.code_action() <cr>', opts)
-    vim.keymap.set('n', '<Tab>', '<cmd> vim.diagnostic.open_float() <cr>', opts)
+    vim.keymap.set('n', '<leader>vr', function() vim.lsp.buf.rename() end, opts)
+    vim.keymap.set('n', '<C-CR>', function() vim.lsp.buf.code_action() end, opts)
+    vim.keymap.set('n', '<Tab>', function() vim.diagnostic.open_float() end, opts)
 end)
 
 require('mason').setup({})
