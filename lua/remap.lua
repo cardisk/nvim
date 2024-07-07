@@ -61,10 +61,18 @@ vim.keymap.set("n", "<leader><Right>", "<C-W><Right>")
 -- Plugins remaps -------------------------------------------------------------
 
 -- fzf.vim
-vim.keymap.set("n", "<C-f>", "<cmd> Files <CR>")
-vim.keymap.set("n", "<C-b>", "<cmd> Buffers <CR>")
-vim.keymap.set("n", "<C-g>", "<cmd> GFiles <CR>")
-vim.keymap.set("n", "<C-j>", "<cmd> Jumps <CR>")
-vim.keymap.set("n", "<C-l>", "<cmd> Lines <CR>")
+-- vim.keymap.set("n", "<C-f>", "<cmd> Files <CR>")
+-- vim.keymap.set("n", "<C-b>", "<cmd> Buffers <CR>")
+-- vim.keymap.set("n", "<C-g>", "<cmd> GFiles <CR>")
+-- vim.keymap.set("n", "<C-j>", "<cmd> Jumps <CR>")
+-- vim.keymap.set("n", "<C-l>", "<cmd> Lines <CR>")
 
+-- Telescope
+vim.keymap.set("n", "<C-f>", "<cmd> Telescope find_files <CR>")
+vim.keymap.set("n", "<C-b>", "<cmd> Telescope buffers <CR>")
+vim.keymap.set("n", "<C-g>", "<cmd> Telescope git_files <CR>")
+vim.keymap.set("n", "<C-j>", "<cmd> Telescope jumplist <CR>")
+vim.keymap.set("n", "<C-l>", "<cmd> Telescope current_buffer_fuzzy_find <CR>")
+vim.keymap.set("n", "<C-p>", "<cmd> Telescope command_history <CR>")
+vim.keymap.set("n", "<C-e>", "<cmd> Telescope diagnostics <CR>")
 -------------------------------------------------------------------------------

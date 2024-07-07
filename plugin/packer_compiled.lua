@@ -99,16 +99,6 @@ _G.packer_plugins = {
     path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  fzf = {
-    loaded = true,
-    path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/fzf",
-    url = "https://github.com/junegunn/fzf"
-  },
-  ["fzf.vim"] = {
-    loaded = true,
-    path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/fzf.vim",
-    url = "https://github.com/junegunn/fzf.vim"
-  },
   gruvbox = {
     loaded = true,
     path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/gruvbox",
@@ -164,10 +154,20 @@ _G.packer_plugins = {
     path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
   rainbow = {
     loaded = true,
     path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/rainbow",
     url = "https://github.com/luochen1990/rainbow"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-abolish"] = {
     loaded = true,

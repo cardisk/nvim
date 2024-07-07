@@ -20,8 +20,16 @@ return require('packer').startup(function(use)
     -- Substituting words
     use 'tpope/vim-abolish'
     -- Fuzzy finder and its vim wrapper
-    use 'junegunn/fzf'
-    use 'junegunn/fzf.vim'
+    -- use 'junegunn/fzf'
+    -- use 'junegunn/fzf.vim'
+    -- Finder
+    use {
+        'nvim-telescope/telescope.nvim',
+        tag = '0.1.x',
+        requires = {
+            {'nvim-lua/plenary.nvim'}
+        }
+    }
     -- Buffer formatter
     use 'sbdchd/neoformat'
     -- Multiple cursors
