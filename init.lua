@@ -19,4 +19,4 @@ vim.cmd.colorscheme('ayu-dark')
 
 -- XTASM syntax highlighting
 vim.cmd([[ autocmd BufRead,BufNewFile *.xt set filetype=xtasm ]])
-
+vim.cmd([[ autocmd BufNewFile,BufRead *.c3 setfiletype c3 ]])
