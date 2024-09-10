@@ -19,7 +19,7 @@ vim.keymap.set("n", "v", "V")
 vim.keymap.set("n", "V", "v")
 
 -- Selecting all
-vim.keymap.set("n", "<C-a>", "ggVG")
+-- vim.keymap.set("n", "<C-a>", "ggVG")
 
 -- Save current buffer
 vim.keymap.set("n", "<C-s>", "<cmd> w <CR>")
