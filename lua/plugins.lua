@@ -31,7 +31,7 @@ return require('packer').startup(function(use)
     -- Buffer formatter
     use 'sbdchd/neoformat'
     -- Alignments
-    use 'echasnovski/mini.align'
+    use 'junegunn/vim-easy-align'
 
     use {
         'VonHeikemen/lsp-zero.nvim',

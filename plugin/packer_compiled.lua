@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["mini.align"] = {
-    loaded = true,
-    path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/mini.align",
-    url = "https://github.com/echasnovski/mini.align"
-  },
   neoformat = {
     loaded = true,
     path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/neoformat",
@@ -173,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
+  },
+  ["vim-easy-align"] = {
+    loaded = true,
+    path = "/Users/matteo/.local/share/nvim/site/pack/packer/start/vim-easy-align",
+    url = "https://github.com/junegunn/vim-easy-align"
   },
   ["vim-fugitive"] = {
     loaded = true,
