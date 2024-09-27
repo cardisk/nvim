@@ -9,8 +9,6 @@ return require('packer').startup(function(use)
     -- Themes
     use 'morhetz/gruvbox'
     use 'Shatur/neovim-ayu'
-    -- Rainbow matching brackets
-    use 'luochen1990/rainbow'
     -- Surrounding things
     use 'tpope/vim-surround'
     -- Commenting things out
@@ -32,8 +30,6 @@ return require('packer').startup(function(use)
     }
     -- Buffer formatter
     use 'sbdchd/neoformat'
-    -- Multiple cursors
-    -- use 'mg979/vim-visual-multi'
     -- Alignments
     use 'echasnovski/mini.align'
 
