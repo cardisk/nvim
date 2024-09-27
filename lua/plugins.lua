@@ -53,5 +53,5 @@ return require('packer').startup(function(use)
     }
 
     -- Treesitter
-    use { 'nvim-treesitter/nvim-treesitter', tag = 'v0.8.1' }
+    use 'nvim-treesitter/nvim-treesitter'
 end)
