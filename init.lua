@@ -8,7 +8,6 @@ require('set')
 -- Configs
 require('lspzero')
 require('treesitter')
-require('easyalign')
 
 -- Commands
 
