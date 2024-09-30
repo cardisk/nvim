@@ -25,7 +25,7 @@ vim.keymap.set("n", "V", "v")
 vim.keymap.set("n", "<C-s>", "<cmd> w <CR>")
 
 -- Save and quit
-vim.keymap.set("n", "<C-q>", "<cmd> wqa <CR>")
+vim.keymap.set("n", "<C-q>", "<cmd> wq <CR>")
 
 -------------------------------------------------------------------------------
 
