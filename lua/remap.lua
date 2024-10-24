@@ -27,6 +27,9 @@ vim.keymap.set("n", "<C-s>", "<cmd> w <CR>")
 -- Save and quit
 vim.keymap.set("n", "<C-q>", "<cmd> wq <CR>")
 
+-- Disable highlighting
+vim.keymap.set("n", "<C-/>", "<cmd> noh <CR>")
+
 -------------------------------------------------------------------------------
 
 -- Splitting panes ------------------------------------------------------------
