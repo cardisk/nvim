@@ -17,9 +17,6 @@ return require('packer').startup(function(use)
     use 'tpope/vim-fugitive'
     -- Substituting words
     use 'tpope/vim-abolish'
-    -- Fuzzy finder and its vim wrapper
-    -- use 'junegunn/fzf'
-    -- use 'junegunn/fzf.vim'
     -- Finder
     use {
         'nvim-telescope/telescope.nvim',
@@ -40,7 +37,6 @@ return require('packer').startup(function(use)
             -- Uncomment the two plugins below if you want to manage the language servers from neovim
             {'williamboman/mason.nvim'},
             {'williamboman/mason-lspconfig.nvim'},
-
             {'neovim/nvim-lspconfig'},
             -- Autocompletion stuff
             {'hrsh7th/nvim-cmp'},
