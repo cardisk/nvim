@@ -9,6 +9,12 @@ return require('packer').startup(function(use)
     -- Themes
     use 'morhetz/gruvbox'
     use 'Shatur/neovim-ayu'
+    use 'alljokecake/naysayer-theme.nvim'
+    use 'ficcdaf/ashen.nvim'
+    use 'razcoen/fleet.nvim'
+    use 'PinpongTp/comic'
+    use 'nonetallt/vim-neon-dark'
+    use 'slugbyte/lackluster.nvim'
     -- Surrounding things
     use 'tpope/vim-surround'
     -- Commenting things out
