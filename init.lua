@@ -14,6 +14,10 @@ require('treesitter')
 -- Theme
 vim.cmd.colorscheme('ayu-dark')
 
+-- Smart Research
+vim.cmd([[ set smartcase  ]])
+vim.cmd([[ set ignorecase ]])
+
 -- XTASM syntax highlighting
 vim.cmd([[ autocmd BufRead,BufNewFile *.xt set filetype=xtasm ]])
 
