@@ -35,7 +35,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 -- Apply a brightercolor to a specific column
-vim.opt.colorcolumn = "80"
+-- vim.opt.colorcolumn = "80"
 
 -- Selection shift up/down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
