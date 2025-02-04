@@ -3,7 +3,8 @@ vim.g.mapleader = " "
 -- Generics -------------------------------------------------------------------
 
 -- Opening the NetRW
-vim.keymap.set("n", "<leader>q", vim.cmd.Ex)
+-- vim.keymap.set("n", "<leader>q", vim.cmd.Ex)
+vim.keymap.set("n", "<tab>", vim.cmd.Ex) -- Testing a new binding.
 
 -- Remapping $ and ^
 vim.keymap.set("n", "1", "^")
@@ -19,7 +20,7 @@ vim.keymap.set("n", "v", "V")
 vim.keymap.set("n", "V", "v")
 
 -- Selecting all
--- vim.keymap.set("n", "<C-a>", "ggVG")
+-- vim.keymap.set("n", "<C-a>", "ggVG") -- Disabled due to a collision.
 
 -- Save current buffer
 vim.keymap.set("n", "<C-s>", "<cmd> w <CR>")
@@ -28,7 +29,8 @@ vim.keymap.set("n", "<C-s>", "<cmd> w <CR>")
 vim.keymap.set("n", "<C-q>", "<cmd> wq <CR>")
 
 -- Disable highlighting
-vim.keymap.set("n", "<C-/>", "<cmd> noh <CR>")
+-- vim.keymap.set("n", "<C-/>", "<cmd> noh <CR>")
+vim.keymap.set("n", "\\", "<cmd> noh <CR>") -- Testing a new binding.
 
 -------------------------------------------------------------------------------
 
