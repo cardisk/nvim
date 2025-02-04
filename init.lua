@@ -12,7 +12,7 @@ require('treesitter')
 -- Commands
 
 -- Theme
-vim.cmd.colorscheme('ayu-dark')
+vim.cmd.colorscheme('jellybeans-nvim')
 
 -- Smart Research
 vim.cmd([[ set smartcase  ]])

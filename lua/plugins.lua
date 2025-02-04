@@ -6,6 +6,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
+
     -- Themes
     use 'morhetz/gruvbox'
     use 'Shatur/neovim-ayu'
@@ -15,6 +16,13 @@ return require('packer').startup(function(use)
     use 'PinpongTp/comic'
     use 'nonetallt/vim-neon-dark'
     use 'slugbyte/lackluster.nvim'
+    use {
+        'metalelf0/jellybeans-nvim',
+        requires = {
+            {'rktjmp/lush.nvim'},
+        }
+    }
+    use 'vim-scripts/jellybeans.vim'
     -- Surrounding things
     use 'tpope/vim-surround'
     -- Commenting things out
