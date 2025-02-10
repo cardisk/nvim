@@ -4,7 +4,7 @@ vim.g.mapleader = " "
 
 -- Opening the NetRW
 -- vim.keymap.set("n", "<leader>q", vim.cmd.Ex)
-vim.keymap.set("n", "<tab>", vim.cmd.Ex) -- Testing a new binding.
+vim.keymap.set("n", "<S-Tab>", vim.cmd.Ex) -- Testing a new binding.
 
 -- Remapping $ and ^
 vim.keymap.set("n", "1", "^")
