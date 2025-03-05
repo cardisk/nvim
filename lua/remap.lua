@@ -16,8 +16,8 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("v", "<C-c>", "<Esc>")
 
 -- Inverting 'visual line' with 'visual'
-vim.keymap.set("n", "v", "V")
-vim.keymap.set("n", "V", "v")
+-- vim.keymap.set("n", "v", "V")
+-- vim.keymap.set("n", "V", "v")
 
 -- Selecting all
 -- vim.keymap.set("n", "<C-a>", "ggVG") -- Disabled due to a collision.
